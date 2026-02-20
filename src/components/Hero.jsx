@@ -118,8 +118,8 @@ export default function Hero() {
             {/* ── Download Resume ── */}
             <a
               className="btn-resume"
-              href="/Karthik-portfolio/Karthikeyan_Murugavel_Resume.pdf"
-              download="Karthikeyan_Murugavel_Resume.pdf"
+              href="/Karthik-portfolio/Karthikeyan_Murugavel_resume.pdf"
+              download="Karthikeyan_Murugavel_resume.pdf"
               aria-label="Download Karthikeyan's Resume PDF"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">

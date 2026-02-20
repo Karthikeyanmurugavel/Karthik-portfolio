@@ -118,7 +118,7 @@ export default function Hero() {
             {/* ── Download Resume ── */}
             <a
               className="btn-resume"
-              href="/Karthik-portfolio/Karthikeyan_Murugavel_resume.pdf"
+              href={`${import.meta.env.BASE_URL}Karthikeyan_Murugavel_resume.pdf`}
               download="Karthikeyan_Murugavel_resume.pdf"
               aria-label="Download Karthikeyan's Resume PDF"
             >

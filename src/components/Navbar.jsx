@@ -19,7 +19,10 @@ export default function Navbar() {
     <>
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container">
-          <span className="nav-logo">Karthikeyan Murugavel</span>
+          <a className="nav-logo" href="#hero" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
+            <img src="/Karthik-portfolio/karthik.png" alt="Karthikeyan Murugavel" className="nav-logo-img" />
+            <span>Karthikeyan Murugavel</span>
+          </a>
           <ul className="nav-links">
             <li><button className="nav-link" onClick={() => scrollTo('work')}>Work</button></li>
             <li><button className="nav-link" onClick={() => scrollTo('skills')}>Skills</button></li>
